@@ -1,0 +1,9 @@
+2024-11-20 12:50:02.771322+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOKS" not found (this database is empty); SQL statement:
+select b1_0.id,b1_0.author,b1_0.genre,b1_0.name,b1_0.number_of_pages,b1_0.user_id from books b1_0 [42104-224]
+2024-11-20 12:53:36.435825+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTHORS" not found (this database is empty); SQL statement:
+insert into authors (name,id) values (?,default) [42104-224]
+2024-11-20 13:24:41.131245+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "AUTHOR" not found (this database is empty); SQL statement:
+insert into author (name,id) values (?,default) [42104-224]
